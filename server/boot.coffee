@@ -45,10 +45,10 @@ Meteor.startup ->
       !! Post.first slug: slug
 
     isBlogAuthorized: () ->
-      if not Meteor.user()
-        return false
-
-      if Blog.settings.adminRole and not Roles.userIsInRole(Meteor.user(), Blog.settings.adminRole)
-        return false
+      # if not Meteor.user()
+      #   return false
+      console.log Meteor.user()
+      # if Blog.settings.adminRole and not Roles.userIsInRole(Meteor.user(), Blog.settings.adminRole)
+      #   return false
 
       true
