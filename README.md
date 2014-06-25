@@ -1,3 +1,8 @@
+## This is a fork
+
+the aim of which is to minify the blog (~50kb), currently it's minified only for meteor 0.7.x see branch `meteor7` 
+
+
 ## Blog
 
 [![Build Status](https://travis-ci.org/Differential/meteor-blog.png?branch=master)](https://travis-ci.org/Differential/meteor-blog)
