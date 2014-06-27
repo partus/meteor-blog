@@ -51,4 +51,4 @@ Meteor.startup ->
       # if Blog.settings.adminRole and not Roles.userIsInRole(Meteor.user(), Blog.settings.adminRole)
       #   return false
 
-      true
+      isMaster @userId
